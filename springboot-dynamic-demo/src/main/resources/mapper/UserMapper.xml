@@ -3,7 +3,7 @@
 <mapper namespace="com.rdpass.dynamic.demo.mapper.UserMapper">
 
     <select id="get" resultType="com.rdpass.dynamic.demo.entity.User">
-        select * from tab_user where id = #{id}
+        select * from tab_user where id = #{id}111
     </select>
 
 </mapper>
